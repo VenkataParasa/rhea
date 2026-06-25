@@ -5,6 +5,8 @@ import { useEffect, useId, useRef, useState } from "react";
 type Sponsor = { name: string; src: string };
 const VISIBLE_LOGOS = 4;
 const GAP = 30;
+const AUTO_SCROLL_DELAY = 2400;
+const SLIDE_DURATION = 420;
 
 export function SponsorCarousel({ sponsors }: { sponsors: Sponsor[] }) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -32,7 +34,7 @@ export function SponsorCarousel({ sponsors }: { sponsors: Sponsor[] }) {
     if (!isPlaying) return;
     const timer = window.setInterval(
       () => setActiveIndex((index) => index + 1),
-      3200
+      AUTO_SCROLL_DELAY
     );
     return () => window.clearInterval(timer);
   }, [isPlaying]);
@@ -45,7 +47,7 @@ export function SponsorCarousel({ sponsors }: { sponsors: Sponsor[] }) {
       window.requestAnimationFrame(() =>
         window.requestAnimationFrame(() => setIsAnimating(true))
       );
-    }, 550);
+    }, SLIDE_DURATION + 20);
     return () => window.clearTimeout(resetTimer);
   }, [activeIndex, sponsors.length]);
 
@@ -93,7 +95,7 @@ export function SponsorCarousel({ sponsors }: { sponsors: Sponsor[] }) {
           className="sponsor-track"
           style={{
             transform: `translateX(-${activeIndex * (itemWidth + GAP)}px)`,
-            transition: isAnimating ? "transform 540ms ease" : "none",
+            transition: isAnimating ? `transform ${SLIDE_DURATION}ms ease` : "none",
           }}
         >
           {loopedSponsors.map((sponsor, index) => (

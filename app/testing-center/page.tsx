@@ -52,11 +52,8 @@ export default function TestingCenterPage() {
       />
 
       <section>
-        <div
-          className="wrap"
-          style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: 40 }}
-        >
-          <div>
+        <div className="wrap testing-intro-grid">
+          <div className="testing-intro-copy">
             <div className="eyebrow">What we offer</div>
             <h2
               style={{
@@ -92,8 +89,8 @@ export default function TestingCenterPage() {
             </ul>
           </div>
 
-          <aside>
-            <div className="card" style={{ position: "sticky", top: 100 }}>
+          <aside className="testing-sidebar">
+            <div className="card testing-schedule-card">
               <div className="badge" style={{ marginBottom: 10 }}>
                 Schedule a test
               </div>
