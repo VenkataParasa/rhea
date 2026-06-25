@@ -2,6 +2,14 @@ import Link from "next/link";
 import { footerNav } from "@/data/navigation";
 export { Header } from "./header";
 
+const footerResources = [
+  { label: "Contact Us", href: "/contact" },
+  { label: "Staff Directory", href: "/staff-directory" },
+  { label: "Careers", href: "/contact#careers" },
+  { label: "Emergency Alerts", href: "/announcements" },
+  { label: "Accessibility Statement", href: "/accessibility" },
+];
+
 export function Footer() {
   return (
     <footer className="footer bg-[#1F5B41]">
@@ -57,7 +65,7 @@ export function Footer() {
 
           <div>
             <h3>Resources</h3>
-            {footerNav.resources.map((item) => (
+            {footerResources.map((item) => (
               <Link key={item.href} href={item.href}>
                 {item.label}
               </Link>
@@ -66,7 +74,10 @@ export function Footer() {
         </div>
 
         <div className="copyright">
-          <span>© 2026 Roanoke Higher Education Center</span>
+          <span>
+            © 2026 Roanoke Higher Education Center
+            <Link href="/accessibility#privacy">Privacy Policy</Link>
+          </span>
           <span>
             Design demo · Content is illustrative and not for production use.
           </span>

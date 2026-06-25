@@ -68,7 +68,6 @@ export const primaryNav: NavGroup[] = [
 ];
 
 export const utilityNav: NavItem[] = [
-  { label: 'Search', href: '/search' },
   { label: 'Contact Us', href: '/contact' },
   { label: 'Staff Directory', href: '/staff-directory' },
   { label: 'Careers', href: '/contact#careers' },
@@ -93,7 +92,6 @@ export const footerNav = {
   ],
   resources: [
     { label: 'Contact Us', href: '/contact' },
-    { label: 'Global Search', href: '/search' },
     { label: 'Accessibility Statement', href: '/accessibility' },
     { label: 'Emergency Alerts', href: '/announcements' },
     { label: 'Privacy Policy', href: '/accessibility#privacy' },
