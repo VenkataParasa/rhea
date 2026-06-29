@@ -89,7 +89,7 @@ export default function ProgramsPage() {
         title="Degrees & Programs"
         description="Find a program that fits your goals, schedule, and next step. Browse 30+ degrees, certificates, and workforce credentials from our member institutions."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Degrees & Programs' }]}
-        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/CCMA-1.jpg?fit=1000%2C600&ssl=1"
+        imageSrc="/images/ccma-1.jpg"
       />
       <Suspense fallback={<div className="wrap" style={{ padding: '40px 0', color: 'var(--muted)' }}>Loading programs…</div>}>
         <ProgramsContent />

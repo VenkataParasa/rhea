@@ -42,7 +42,7 @@ export function PageHero({
     );
   }
 
-  const heroImage = imageSrc ?? 'https://i0.wp.com/www.education.edu/wp-content/uploads/2022/08/RHEC-Main-Page-Header.png?resize=2600%2C1000&ssl=1';
+  const heroImage = imageSrc ?? '/images/rhec-main-header.png';
   return (
     <section className="page-hero">
       <div className="page-hero-image" style={{ backgroundImage: `url(${heroImage})` }} aria-hidden="true" />

@@ -8,7 +8,7 @@ export default function AboutPage() {
         title="About RHEC"
         description="The Roanoke Higher Education Center is a shared campus that brings together leading universities, community colleges, and workforce training providers in one convenient location in downtown Roanoke."
         crumbs={[{ label: "Home", href: "/" }, { label: "About RHEC" }]}
-        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2022/10/About-RHEC-Header-2.png?resize=2600%2C1000&ssl=1"
+        imageSrc="/images/about-header-2.png"
       />
 
       {/* Mission */}
@@ -101,37 +101,37 @@ export default function AboutPage() {
             {[
               {
                 image:
-                  "https://i0.wp.com/www.education.edu/wp-content/uploads/2022/08/RHEC-Main-Page-Header.png?resize=2600%2C1000&ssl=1",
+                  "/images/rhec-main-header.png",
                 name: "Main Building",
                 desc: "Five floors of classrooms, offices, a library, and student support services in downtown Roanoke.",
               },
               {
                 image:
-                  "https://www.education.edu/wp-content/uploads/external/00f3981cab8d7549033b0d314539dd2e-690x460-c-center.jpg",
+                  "/images/ext-computer-lab.jpg",
                 name: "Computer Labs",
                 desc: "Fully equipped computer labs available for academic work and credit coursework.",
               },
               {
                 image:
-                  "https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/RU-Nursing-1.jpg?fit=1000%2C600&ssl=1",
+                  "/images/ru-nursing-1.jpg",
                 name: "Specialized Labs",
                 desc: "Advanced manufacturing, health sciences, and workforce training labs with industry-standard equipment.",
               },
               {
                 image:
-                  "https://www.education.edu/wp-content/uploads/external/79859a804e718c7290312a78639a65f0-690x460-c-center.jpg",
+                  "/images/ext-library.jpg",
                 name: "RHEC Library",
                 desc: "Research databases, study spaces, and interlibrary loan services for all RHEC students.",
               },
               {
                 image:
-                  "https://www.education.edu/wp-content/uploads/external/7c2da1a30be0aa34ef8d4f0b0c6483e1-690x460-c-center.jpg",
+                  "/images/ext-conference-room.jpg",
                 name: "Conference & Event Spaces",
                 desc: "Flexible meeting rooms and event venues available for campus and community use.",
               },
               {
                 image:
-                  "https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/CCMA-1.jpg?fit=1000%2C600&ssl=1",
+                  "/images/ccma-1.jpg",
                 name: "Common Areas",
                 desc: "Welcoming lounges, accessible restrooms, and café-style spaces throughout the building.",
               },

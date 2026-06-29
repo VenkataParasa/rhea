@@ -26,7 +26,7 @@ export default function EventsPage() {
         title="Events Calendar"
         description="Explore campus programs, information sessions, workshops, career fairs, and community events at RHEC."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Events' }]}
-        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/Open-house.jpg?fit=1000%2C600&ssl=1"
+        imageSrc="/images/open-house.jpg"
       />
 
       <section>

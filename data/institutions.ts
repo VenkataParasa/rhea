@@ -20,7 +20,7 @@ export const institutions: Institution[] = [
     abbr: 'ACP',
     type: 'Graduate School',
     typeVariant: 'academic',
-    logo: 'https://www.education.edu/wp-content/uploads/external/83f5c9a5a2c005145052b57b2e5ea677-2400x0-c-default.png',
+    logo: '/images/logo-acp.png',
     description:
       "Virginia's only three-year Doctor of Pharmacy program. In 2024 ACP expanded its offerings at RHEC to include an online Doctor of Public Health degree.",
     detail:
@@ -41,7 +41,7 @@ export const institutions: Institution[] = [
     abbr: 'JMU',
     type: 'Public University',
     typeVariant: 'academic',
-    logo: 'https://www.education.edu/wp-content/uploads/external/ac8e52658b88df9dff80bb65fddbaa91-2400x0-c-default.png',
+    logo: '/images/logo-jmu.png',
     description:
       'A public research university founded in 1908 in Harrisonburg, Virginia. JMU offers university-level programs at RHEC for students who want to stay close to the Roanoke region.',
     detail:
@@ -62,7 +62,7 @@ export const institutions: Institution[] = [
     abbr: 'RU',
     type: 'Public University',
     typeVariant: 'academic',
-    logo: 'https://www.education.edu/wp-content/uploads/external/5cef9c33266b9b1fd71b42eaf7a9a606-2400x0-c-default.png',
+    logo: '/images/logo-ru.png',
     description:
       'A charter RHEC member and one of the primary teaching institutions at the Center. Radford delivers approximately 75 credit courses at junior, senior, and graduate levels each semester.',
     detail:
@@ -92,7 +92,7 @@ export const institutions: Institution[] = [
     abbr: 'Region 5',
     type: 'Adult Education',
     typeVariant: 'workforce',
-    logo: 'https://www.education.edu/wp-content/uploads/external/adbb5c1e68b966cddcd00ad1f52a4ed2-2400x0-c-default.png',
+    logo: '/images/logo-region5.png',
     description:
       'Collaborates with local school divisions across Alleghany, Botetourt, and the Roanoke Valley to provide GED preparation and foundational academic skills instruction for adult learners.',
     detail:
@@ -119,7 +119,7 @@ export const institutions: Institution[] = [
     abbr: 'RHEC',
     type: 'Training Host',
     typeVariant: 'workforce',
-    logo: 'https://www.education.edu/wp-content/uploads/external/a200175a706c59d344988c54316b8bbd-2400x0-c-default.png',
+    logo: '/images/logo-rhec.png',
     description:
       'In addition to its role as the shared campus, RHEC hosts occupational safety training courses through partnerships with Mid Atlantic OTI and the Chesapeake Region Safety Council.',
     detail:
@@ -146,7 +146,7 @@ export const institutions: Institution[] = [
     abbr: 'SOVAH',
     type: 'Health Professions',
     typeVariant: 'academic',
-    logo: 'https://www.education.edu/wp-content/uploads/external/a182c84208ef1c77ef051d972afeceee-2400x0-c-default.jpg',
+    logo: '/images/logo-sovah.jpg',
     description:
       'A private health professions school offering specialized programs that prepare students for careers in diagnostic imaging and cardiovascular technology.',
     detail:
@@ -171,7 +171,7 @@ export const institutions: Institution[] = [
     abbr: 'TAP',
     type: 'Community Partner',
     typeVariant: 'workforce',
-    logo: 'https://www.education.edu/wp-content/uploads/external/d2a11ee805443b5b37ef5f6e9351b36b-2400x0-c-default.jpg',
+    logo: '/images/logo-tap.jpg',
     description:
       'An anti-poverty community action agency providing integrated pathways to education, employment, affordable housing, and health services to support economic independence across Southwest Virginia.',
     detail:
@@ -198,7 +198,7 @@ export const institutions: Institution[] = [
     abbr: 'VCU',
     type: 'Research University',
     typeVariant: 'academic',
-    logo: 'https://www.education.edu/wp-content/uploads/external/d4c617124f30d55d57a79c92c770eeb7-2400x0-c-default.jpg',
+    logo: '/images/logo-vcu.jpg',
     description:
       "VCU extended its Department of Nurse Anesthesia graduate program to Roanoke in 2009, giving the region's healthcare professionals access to advanced clinical training close to home.",
     detail:
@@ -222,7 +222,7 @@ export const institutions: Institution[] = [
     abbr: 'VT',
     type: 'Research University',
     typeVariant: 'academic',
-    logo: 'https://www.education.edu/wp-content/uploads/external/3a672a17bae145c5ab7a666600007b5e-2400x0-c-default.png',
+    logo: '/images/logo-vt.png',
     description:
       "Offers academic degree programs and professional development opportunities through the Virginia Tech Roanoke Center and the Catawba Sustainability Center, extending the university's reach into Southwest Virginia.",
     detail:
@@ -249,7 +249,7 @@ export const institutions: Institution[] = [
     abbr: 'VWCC',
     type: 'Community College',
     typeVariant: 'academic',
-    logo: 'https://www.education.edu/wp-content/uploads/external/744a3ab1ac84a24f82d84028324913a7-2400x0-c-default.png',
+    logo: '/images/logo-vwcc.png',
     description:
       'A two-year public institution in the Virginia Community College System offering affordable pathways to associate degrees, transfer preparation, and workforce credentials for learners in the Roanoke Valley.',
     detail:

@@ -10,7 +10,7 @@ const services = [
     location: 'Room 115',
     link: '/contact',
     linkLabel: 'Contact the Success Center',
-    image: 'https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/VCU-NRSA-student.jpg?fit=1000%2C600&ssl=1',
+    image: '/images/vcu-nrsa-student.jpg',
   },
   {
     id: 'workforce',
@@ -20,7 +20,7 @@ const services = [
     location: 'Room 220',
     link: '/degrees-programs?subject=Workforce',
     linkLabel: 'Browse workforce programs',
-    image: 'https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/Culinary-Arts-1.jpg?fit=1000%2C600&ssl=1',
+    image: '/images/culinary-arts-1.jpg',
   },
   {
     id: 'library',
@@ -30,7 +30,7 @@ const services = [
     location: 'Room 160',
     link: '/documents',
     linkLabel: 'Library resources',
-    image: 'https://www.education.edu/wp-content/uploads/external/79859a804e718c7290312a78639a65f0-690x460-c-center.jpg',
+    image: '/images/ext-library.jpg',
   },
   {
     id: 'computer-lab',
@@ -50,7 +50,7 @@ const services = [
     location: 'Lots A, B, and C',
     link: '/documents',
     linkLabel: 'Parking guide',
-    image: 'https://i0.wp.com/www.education.edu/wp-content/uploads/2022/08/RHEC-Main-Page-Header.png?resize=2600%2C1000&ssl=1',
+    image: '/images/rhec-main-header.png',
   },
   {
     id: 'getting-started',
@@ -60,7 +60,7 @@ const services = [
     location: 'Student Success Center',
     link: '/contact',
     linkLabel: 'Get started today',
-    image: 'https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/Open-house.jpg?fit=1000%2C600&ssl=1',
+    image: '/images/open-house.jpg',
   },
 ];
 
@@ -71,7 +71,7 @@ export default function StudentServicesPage() {
         title="Student Services"
         description="The people, places, and practical resources that help you stay focused on your goals — whether you're brand new or finding your next step."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Student Services' }]}
-        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2022/07/Student-Services-Header.png?resize=2600%2C1000&ssl=1"
+        imageSrc="/images/student-services-header.png"
       />
 
       <section>

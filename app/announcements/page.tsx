@@ -32,7 +32,7 @@ export default function AnnouncementsPage() {
         title="Announcements & News"
         description="Campus updates, program news, scholarship opportunities, and stories from the RHEC community."
         crumbs={[{ label: "Home", href: "/" }, { label: "Announcements" }]}
-        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/Open-house.jpg?fit=1000%2C600&ssl=1"
+        imageSrc="/images/open-house.jpg"
       />
 
       <section>

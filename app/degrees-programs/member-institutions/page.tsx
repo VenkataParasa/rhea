@@ -22,7 +22,7 @@ export default function MemberInstitutionsPage() {
           { label: 'Degrees & Programs', href: '/degrees-programs' },
           { label: 'Member Institutions' },
         ]}
-        imageSrc="https://www.education.edu/wp-content/uploads/external/130db9ef343e1deeab7a2d11e050b5d4-690x460-c-center.jpg"
+        imageSrc="/images/ext-member-institutions.jpg"
       />
 
       {/* Intro + degree levels */}

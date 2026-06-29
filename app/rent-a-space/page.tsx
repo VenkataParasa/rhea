@@ -12,7 +12,7 @@ const spaces = [
     capacity: 'Up to 30 seats',
     amenities: 'Whiteboard, projector, podium, flexible seating',
     available: 'Mon–Sat, by reservation',
-    image: 'https://www.education.edu/wp-content/uploads/external/511c79050039cc1259e0d626cc741e52-690x460-c-center.jpg',
+    image: '/images/ext-classroom.jpg',
   },
   {
     id: 'computer-labs',
@@ -22,7 +22,7 @@ const spaces = [
     capacity: 'Up to 24 workstations',
     amenities: 'Windows PCs, dual monitors, high-speed internet, printing',
     available: 'Mon–Sat, by reservation',
-    image: 'https://www.education.edu/wp-content/uploads/external/00f3981cab8d7549033b0d314539dd2e-690x460-c-center.jpg',
+    image: '/images/ext-computer-lab.jpg',
   },
   {
     id: 'conference-rooms',
@@ -32,7 +32,7 @@ const spaces = [
     capacity: '8–24 people',
     amenities: 'Conference table, display screen, video conferencing capability',
     available: 'Mon–Fri, by reservation',
-    image: 'https://www.education.edu/wp-content/uploads/external/7c2da1a30be0aa34ef8d4f0b0c6483e1-690x460-c-center.jpg',
+    image: '/images/ext-conference-room.jpg',
   },
   {
     id: 'equipment',
@@ -41,7 +41,7 @@ const spaces = [
     capacity: 'Varies by request',
     amenities: 'Projectors, microphones, extension cords, easels, whiteboards',
     available: 'By arrangement',
-    image: 'https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/Region-5-1.jpg?fit=1000%2C600&ssl=1',
+    image: '/images/region-5-1.jpg',
   },
   {
     id: 'parking',
@@ -50,7 +50,7 @@ const spaces = [
     capacity: 'Contact for availability',
     amenities: 'Lot A and B validation available for qualifying events',
     available: 'By arrangement',
-    image: 'https://i0.wp.com/www.education.edu/wp-content/uploads/2022/08/RHEC-Main-Page-Header.png?resize=2600%2C1000&ssl=1',
+    image: '/images/rhec-main-header.png',
   },
 ];
 
@@ -63,7 +63,7 @@ export default function RentASpacePage() {
         title="Rent a Space"
         description="Bring your next meeting, training, conference, or community gathering to RHEC. Our flexible spaces are available at competitive rates for businesses, nonprofits, and community groups."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Rent a Space' }]}
-        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2024/09/Rent-a-Space-Header.png?resize=2600%2C1000&ssl=1"
+        imageSrc="/images/rent-a-space-header.png"
       />
 
       {/* Room cards */}

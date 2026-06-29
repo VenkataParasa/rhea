@@ -24,7 +24,7 @@ export default async function ProgramDetail({ params }: { params: Promise<{ slug
           { label: 'Degrees & Programs', href: '/degrees-programs' },
           { label: program.name },
         ]}
-        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/RU-Nursing-1.jpg?fit=1000%2C600&ssl=1"
+        imageSrc="/images/ru-nursing-1.jpg"
       />
 
       <section>

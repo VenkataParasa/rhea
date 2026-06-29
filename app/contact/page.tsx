@@ -23,7 +23,7 @@ export default function ContactPage() {
         title="Contact RHEC"
         description="Our team is here to help. Reach out with questions about programs, services, facility rental, or anything else — we'll point you in the right direction."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Contact Us' }]}
-        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2022/08/RHEC-Main-Page-Header.png?resize=2600%2C1000&ssl=1"
+        imageSrc="/images/rhec-main-header.png"
       />
 
       <section>
