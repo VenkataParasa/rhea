@@ -8,6 +8,7 @@ export default function AccessibilityPage() {
         title="Accessibility Statement"
         description="RHEC is committed to making our website and digital content accessible to everyone, including individuals with disabilities."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Accessibility Statement' }]}
+        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/Sovah-students.jpg?fit=1000%2C600&ssl=1"
       />
 
       <article style={{ padding: '72px 0' }}>

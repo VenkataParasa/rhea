@@ -25,6 +25,7 @@ export default function StaffDirectoryPage() {
         title="Staff Directory"
         description="Find the people and departments that can help you navigate RHEC — from admissions support to facility reservations."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Staff Directory' }]}
+        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/Region-5-1.jpg?fit=1000%2C600&ssl=1"
       />
 
       <section>

@@ -23,10 +23,11 @@ export default function ContactPage() {
         title="Contact RHEC"
         description="Our team is here to help. Reach out with questions about programs, services, facility rental, or anything else — we'll point you in the right direction."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Contact Us' }]}
+        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2022/08/RHEC-Main-Page-Header.png?resize=2600%2C1000&ssl=1"
       />
 
       <section>
-        <div className="wrap" style={{ display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: 52 }}>
+        <div className="wrap two-col-contact">
           <div>
             <div className="eyebrow">Reach us</div>
             <h2 style={{ color: 'var(--deep)', fontSize: 'clamp(1.8rem,3vw,2.5rem)', letterSpacing: '-.05em', margin: '10px 0 22px' }}>

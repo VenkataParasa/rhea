@@ -21,9 +21,12 @@ export const primaryNav: NavGroup[] = [
     href: '/degrees-programs',
     children: [
       { label: 'Program Finder', href: '/degrees-programs' },
+      { label: 'Member Institutions', href: '/degrees-programs/member-institutions' },
       { label: 'Health Sciences', href: '/degrees-programs?subject=Health+Sciences' },
       { label: 'Technology', href: '/degrees-programs?subject=Technology' },
       { label: 'Business', href: '/degrees-programs?subject=Business' },
+      { label: 'Education', href: '/degrees-programs?subject=Education' },
+      { label: 'Social Sciences', href: '/degrees-programs?subject=Social+Sciences' },
       { label: 'Workforce Training', href: '/degrees-programs?subject=Workforce' },
     ],
   },
@@ -57,7 +60,7 @@ export const primaryNav: NavGroup[] = [
     ],
   },
   {
-    label: 'Foundation',
+    label: 'RHEC Foundation',
     href: '/foundation',
     children: [
       { label: 'Foundation Overview', href: '/foundation' },

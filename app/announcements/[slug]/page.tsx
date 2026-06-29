@@ -23,6 +23,7 @@ export default async function AnnouncementDetail({ params }: { params: Promise<{
           { label: 'Announcements', href: '/announcements' },
           { label: item.title },
         ]}
+        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/Event-1.jpg?fit=1000%2C600&ssl=1"
       />
 
       <section>

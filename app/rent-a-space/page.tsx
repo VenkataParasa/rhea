@@ -12,7 +12,7 @@ const spaces = [
     capacity: 'Up to 30 seats',
     amenities: 'Whiteboard, projector, podium, flexible seating',
     available: 'Mon–Sat, by reservation',
-    image: '/images/classrooms.jpg',
+    image: 'https://www.education.edu/wp-content/uploads/external/511c79050039cc1259e0d626cc741e52-690x460-c-center.jpg',
   },
   {
     id: 'computer-labs',
@@ -22,7 +22,7 @@ const spaces = [
     capacity: 'Up to 24 workstations',
     amenities: 'Windows PCs, dual monitors, high-speed internet, printing',
     available: 'Mon–Sat, by reservation',
-    image: '/images/computer-labs.jpg',
+    image: 'https://www.education.edu/wp-content/uploads/external/00f3981cab8d7549033b0d314539dd2e-690x460-c-center.jpg',
   },
   {
     id: 'conference-rooms',
@@ -32,25 +32,25 @@ const spaces = [
     capacity: '8–24 people',
     amenities: 'Conference table, display screen, video conferencing capability',
     available: 'Mon–Fri, by reservation',
-    image: '/images/conference-rooms.jpg',
+    image: 'https://www.education.edu/wp-content/uploads/external/7c2da1a30be0aa34ef8d4f0b0c6483e1-690x460-c-center.jpg',
   },
   {
     id: 'equipment',
-    icon: '📽️',
     name: 'Equipment & Services',
     desc: 'Support services and audio-visual equipment to complement your event.',
     capacity: 'Varies by request',
     amenities: 'Projectors, microphones, extension cords, easels, whiteboards',
     available: 'By arrangement',
+    image: 'https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/Region-5-1.jpg?fit=1000%2C600&ssl=1',
   },
   {
     id: 'parking',
-    icon: '🅿️',
     name: 'Event Parking Validation',
     desc: 'Parking validation for event guests using RHEC surface lots during your event.',
     capacity: 'Contact for availability',
     amenities: 'Lot A and B validation available for qualifying events',
     available: 'By arrangement',
+    image: 'https://i0.wp.com/www.education.edu/wp-content/uploads/2022/08/RHEC-Main-Page-Header.png?resize=2600%2C1000&ssl=1',
   },
 ];
 
@@ -63,7 +63,7 @@ export default function RentASpacePage() {
         title="Rent a Space"
         description="Bring your next meeting, training, conference, or community gathering to RHEC. Our flexible spaces are available at competitive rates for businesses, nonprofits, and community groups."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Rent a Space' }]}
-        imageSrc="/images/rent-a-space-header.webp"
+        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2024/09/Rent-a-Space-Header.png?resize=2600%2C1000&ssl=1"
       />
 
       {/* Room cards */}
@@ -79,7 +79,7 @@ export default function RentASpacePage() {
           <div className="program-grid">
             {spaces.map((s) => (
               <article className="room-card" key={s.id} id={s.id}>
-                <div className={`room-thumb${s.image ? ' has-image' : ''}`} style={s.image ? { backgroundImage: `url(${s.image})` } : undefined} aria-hidden>{s.icon}</div>
+                <div className="room-thumb has-image" style={{ backgroundImage: `url(${s.image})` }} aria-hidden />
                 <div className="room-body">
                   <h3>{s.name}</h3>
                   <p>{s.desc}</p>
@@ -100,7 +100,7 @@ export default function RentASpacePage() {
 
       {/* Inquiry form */}
       <section id="inquiry" style={{ background: 'var(--sand)', padding: '80px 0' }}>
-        <div className="wrap" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 48 }}>
+        <div className="wrap two-col-eq">
           <div>
             <div className="eyebrow">Ready to book?</div>
             <h2 style={{ color: 'var(--deep)', fontSize: 'clamp(1.8rem, 3vw, 2.6rem)', letterSpacing: '-.05em', margin: '10px 0 18px' }}>

@@ -47,7 +47,7 @@ export default function FoundationPage() {
 
       {/* Overview */}
       <section>
-        <div className="wrap" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 48 }}>
+        <div className="wrap two-col-eq">
           <div>
             <div className="eyebrow">Our purpose</div>
             <h2 style={{ color: 'var(--deep)', fontSize: 'clamp(2rem,3.5vw,3rem)', letterSpacing: '-.055em', margin: '10px 0 18px' }}>

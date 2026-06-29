@@ -29,6 +29,7 @@ export default function DocumentsPage() {
         title="Document Library"
         description="Find campus guides, handbooks, forms, and resources — all in one place. Documents are updated regularly to reflect the most current RHEC policies and services."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Document Library' }]}
+        imageSrc="https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/VCU-NRSA-student.jpg?fit=1000%2C600&ssl=1"
       />
 
       <section>
