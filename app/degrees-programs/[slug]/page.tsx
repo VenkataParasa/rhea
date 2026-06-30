@@ -24,11 +24,12 @@ export default async function ProgramDetail({ params }: { params: Promise<{ slug
           { label: 'Degrees & Programs', href: '/degrees-programs' },
           { label: program.name },
         ]}
+        imageSrc="/images/ru-nursing-1.jpg"
       />
 
       <section>
         <div className="wrap">
-          <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: 40 }}>
+          <div className="two-col-wide">
             <div>
               <div className="eyebrow">Program overview</div>
               <h2 style={{ color: 'var(--deep)', fontSize: 'clamp(1.7rem,3vw,2.4rem)', letterSpacing: '-.04em', margin: '10px 0 18px' }}>

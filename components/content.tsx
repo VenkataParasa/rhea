@@ -21,22 +21,36 @@ export function Breadcrumbs({ crumbs }: { crumbs: { label: string; href?: string
 
 /* ── Page hero ───────────────────────────────────────────────────────── */
 export function PageHero({
-  title, description, crumbs, imageSrc,
+  title, description, crumbs, imageSrc, logoSrc,
 }: {
-  title: string; description?: string; crumbs?: { label: string; href?: string }[]; imageSrc?: string;
+  title: string; description?: string; crumbs?: { label: string; href?: string }[]; imageSrc?: string; logoSrc?: string;
 }) {
-  const heroImage = imageSrc ?? '/images/foundation-header.webp';
+  if (logoSrc) {
+    return (
+      <section className="page-hero">
+        <div className="page-hero-logo-panel" aria-hidden="true">
+          <img src={logoSrc} alt="" />
+        </div>
+        <div className="wrap page-hero-inner">
+          <div className="page-hero-text">
+            {crumbs && <Breadcrumbs crumbs={crumbs} />}
+            <h1 className="page-hero-title">{title}</h1>
+            {description && <p className="page-hero-desc">{description}</p>}
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  const heroImage = imageSrc ?? '/images/rhec-main-header.png';
   return (
     <section className="page-hero">
-      <div className="page-hero-layout">
-        <div className="page-hero-media" style={{ backgroundImage: `url(${heroImage})` }} aria-hidden="true" />
-        <div className="page-hero-panel">
-          <div className="page-hero-content">
-            {crumbs && <Breadcrumbs crumbs={crumbs} />}
-            <h1 className="page-title">{title}</h1>
-            <div className="page-hero-rule" aria-hidden="true"><span /></div>
-            {description && <p>{description}</p>}
-          </div>
+      <div className="page-hero-image" style={{ backgroundImage: `url(${heroImage})` }} aria-hidden="true" />
+      <div className="wrap page-hero-inner">
+        <div className="page-hero-text">
+          {crumbs && <Breadcrumbs crumbs={crumbs} />}
+          <h1 className="page-hero-title">{title}</h1>
+          {description && <p className="page-hero-desc">{description}</p>}
         </div>
       </div>
     </section>

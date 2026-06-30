@@ -15,54 +15,54 @@ const pathways = [
     desc: "Explore degrees, certificates, and how to get started.",
     href: "/degrees-programs",
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/Open-house.jpg?fit=1000%2C600&ssl=1",
+      "/images/open-house.jpg",
   },
   {
     title: "Current Students",
     desc: "Find the services and support you need on campus.",
     href: "/student-services",
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/Event-1.jpg?fit=1000%2C600&ssl=1",
+      "/images/event-1.jpg",
   },
   {
     title: "Workforce Learners",
     desc: "Build skills for a changing career.",
     href: "/degrees-programs?subject=Workforce",
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/Culinary-Arts-1.jpg?fit=1000%2C600&ssl=1",
+      "/images/culinary-arts-1.jpg",
   },
   {
     title: "Partners & Employers",
     desc: "Connect with talent and customized training.",
     href: "/foundation",
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/Region-5-1.jpg?fit=1000%2C600&ssl=1",
+      "/images/region-5-1.jpg",
   },
   {
     title: "Host an Event",
     desc: "Find flexible, professional space for your group.",
     href: "/rent-a-space",
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/CCMA-1.jpg?fit=1000%2C600&ssl=1",
+      "/images/ccma-1.jpg",
   },
 ];
 
 const heroSlides = [
   {
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2022/08/RHEC-Main-Page-Header.png?resize=2600%2C1000&ssl=1",
+      "/images/rhec-main-header.png",
   },
   {
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/VCU-NRSA-student.jpg?fit=1000%2C600&ssl=1",
+      "/images/vcu-nrsa-student.jpg",
   },
   {
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2026/03/Open-house.jpg?fit=1000%2C600&ssl=1",
+      "/images/open-house.jpg",
   },
   {
     image:
-      "https://i0.wp.com/www.education.edu/wp-content/uploads/2024/12/RU-Nursing-1.jpg?fit=1000%2C600&ssl=1",
+      "/images/ru-nursing-1.jpg",
   },
 ];
 

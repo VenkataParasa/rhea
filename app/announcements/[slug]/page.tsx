@@ -23,6 +23,7 @@ export default async function AnnouncementDetail({ params }: { params: Promise<{
           { label: 'Announcements', href: '/announcements' },
           { label: item.title },
         ]}
+        imageSrc="/images/event-1.jpg"
       />
 
       <section>
