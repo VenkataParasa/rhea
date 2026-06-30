@@ -114,19 +114,16 @@ export function ChatWidget() {
           aria-label="Open chat assistant"
         >
           <svg
-            className="chat-site-icon"
-            viewBox="0 0 48 48"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
             aria-hidden="true"
-            focusable="false"
           >
-            <path d="M13 8h20a4 4 0 0 1 4 4v23.5L30.8 30H13a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4Z" fill="currentColor" />
-            <rect x="19" y="14" width="5" height="5" transform="rotate(45 21.5 16.5)" fill="#d85747" />
-            <rect x="25" y="14" width="5" height="5" transform="rotate(45 27.5 16.5)" fill="#d85747" />
-            <rect x="16" y="20" width="5" height="5" transform="rotate(45 18.5 22.5)" fill="#d85747" />
-            <rect x="22" y="20" width="5" height="5" transform="rotate(45 24.5 22.5)" fill="#d85747" />
-            <rect x="28" y="20" width="5" height="5" transform="rotate(45 30.5 22.5)" fill="#d85747" />
-            <rect x="19" y="26" width="5" height="5" transform="rotate(45 21.5 28.5)" fill="#d85747" />
-            <rect x="25" y="26" width="5" height="5" transform="rotate(45 27.5 28.5)" fill="#d85747" />
+            <path
+              d="M20 2H4C2.9 2 2 2.9 2 4v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"
+              fill="currentColor"
+            />
           </svg>
           <span className="chat-fab-label">Ask RHEC</span>
         </button>

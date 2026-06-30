@@ -2468,39 +2468,28 @@ section {
 
 /* Floating action button */
 .chat-fab {
-  width: 64px;
-  height: 64px;
-  display: grid;
-  place-items: center;
+  display: flex;
   align-items: center;
-  background: var(--green);
+  gap: 10px;
+  background: var(--deep);
   color: #fff;
   border: none;
-  border-radius: 50%;
-  padding: 0;
+  border-radius: 50px;
+  padding: 14px 22px 14px 18px;
   cursor: pointer;
-  box-shadow: 0 8px 24px rgba(216, 87, 71, 0.34);
+  box-shadow: 0 4px 18px rgba(29,96,70,.35);
+  font-size: .9rem;
+  font-weight: 600;
+  font-family: inherit;
   transition: background .18s, transform .18s, box-shadow .18s;
 }
 .chat-fab:hover {
-  background: #c94d3f;
+  background: #174f36;
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(216, 87, 71, 0.45);
-}
-.chat-site-icon {
-  width: 38px;
-  height: 38px;
+  box-shadow: 0 6px 24px rgba(29,96,70,.45);
 }
 .chat-fab-label {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+  letter-spacing: .01em;
 }
 
 /* Panel */
