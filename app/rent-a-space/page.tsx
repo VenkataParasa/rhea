@@ -83,11 +83,11 @@ export default function RentASpacePage() {
                 <div className="room-body">
                   <h3>{s.name}</h3>
                   <p>{s.desc}</p>
-                  <div className="room-detail">
-                    <span>👥 {s.capacity}</span>
-                    <span>🛠️ {s.amenities}</span>
-                    <span>📅 {s.available}</span>
-                  </div>
+                  <ul className="room-detail">
+                    <li>{s.capacity}</li>
+                    <li>{s.amenities}</li>
+                    <li>{s.available}</li>
+                  </ul>
                   <div style={{ marginTop: 14 }}>
                     <a href="#inquiry" className="btn btn-sm btn-outline">Inquire about this space →</a>
                   </div>

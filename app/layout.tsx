@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header, Footer } from "@/components/site-chrome";
+import { ChatWidget } from "@/components/chat-widget";
 import { getActiveAlert } from "@/data/alerts";
 
 export const metadata: Metadata = {
@@ -32,6 +33,7 @@ export default function RootLayout({
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        <ChatWidget />
       </body>
     </html>
   );
